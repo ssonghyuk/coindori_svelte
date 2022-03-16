@@ -1,0 +1,70 @@
+/*common*/
+
+body {margin: 0; padding:0; font-family: 'Noto Sans', sans-serif; font-family: 'Noto Sans KR', sans-serif;}
+a {display: block; text-decoration:none; color: #000;}  * {max-height:1000000px;margin:0;padding:0;}
+img, fieldset, button {border:none; margin: 0;}
+hr, button img {display:none;}
+input, select, button, textarea {font-family:'Noto Sans Korean', 'Noto Sans KR', 'Malgun Gothic','맑은 고딕','돋움',Dotum,'굴림',Gulim,Tahoma,Verdana,Geneva,sans-serif,Apple Gothic,AppleGothic;  font-weight:400;color:#666;line-height:26px;letter-spacing:-0.03em !important;box-sizing:border-box;vertical-align:middle;}
+input[type=submit] {cursor:pointer;appearance:none;-moz-appearance:none;-webkit-appearance:none;border-radius:0;-moz-border-radius:0;-webkit-border-radius:0;}
+ul, li {list-style:none;}
+a {display:block;font-weight:400;color:#666;text-decoration:none;vertical-align:top;}
+a:hover, a:active, a:focus, a:visited {text-decoration:none;}
+textarea {overflow:auto;} 
+table {width:100%;table-layout:fixed;border-collapse:collapse;border-spacing:0;text-align:center;}
+table img {vertical-align:top;}
+th, td {vertical-align:middle;word-wrap:break-word;word-break:break-all;}
+form  {margin:0;padding:0;}
+img {width:100%;vertical-align:top;}
+table img {width:auto;vertical-align:middle;}
+legend  {position:absolute;left:0;top:0;width:0;height:0;overflow:hidden;visibility:hidden;font-size:0;line-height:0;} /* For Screen Reader */ 
+caption {width:0;height:0;margin:0;padding:0;font-size:0;line-height:0;text-indent:-9999px;overflow:hidden;visibility:hidden;}
+em {font-style:normal;}
+p {display:block;}
+h1,h2,h3,h4,h5,h6{letter-spacing: -0.03em !Important;}
+
+.ct1 {max-width:1800px; width: 100%; margin:0 auto;}
+.ct2 {max-width:1700px; width: 100%; margin:0 auto;}
+.ct3 {max-width:1600px; width: 100%; margin:0 auto;}
+
+
+
+/*header*/
+.header .container {}
+.header .container a,
+.header .container .nav-item a {color: #fff;}
+.header .navbar-brand span {font-family: 'Montserrat', sans-serif; font-weight: 700;}
+ 
+/*login*/
+ .login_wrap {max-width:600px; margin:0rem auto 5rem; border:1px solid #ddd; padding:3rem;}
+ .bt_wrap button {width: 100%; margin:1rem 0;}
+
+ 
+ /*main*/
+.main_section {padding:5rem 0;}
+.home h2,
+.join_wrap h2 {margin-bottom: 2rem;}
+.home table th {background: #0d6efd; color: #fff;}
+
+.date_bt_box {display: flex; height: 38px; justify-content: flex-end;}
+.date_bt_box button {width: 100%;}
+
+/*sub_common*/
+.sub_wrap {min-height: 70vh;}
+
+/*Join*/
+.join_wrap {max-width:800px; min-height: 70vh;}
+
+/**/
+.mypage_wrap th {width: 20%;}
+.mypage_wrap .bt_wrap {width: 100px; margin:0 auto;}
+/*footer*/
+
+footer {background: #0d6efd; padding:2rem 0; color: #fff; }
+footer ul {margin:0; }
+footer ul li {}
+
+/*media*/
+
+@media (max-width: 768px){
+   .navbar-toggler {float:right;}
+}
